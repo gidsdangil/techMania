@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Select from 'react-select';
-import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Button, Label, Input, Container, Row, Col } from 'reactstrap';
+import Inputs from './Inputs';
 import testpgms from './test_programs';
 
 
@@ -49,26 +49,8 @@ export default class Config extends Component {
                 <Container>
                     <Row>
                         <Col xs="8">
-                            <Form>
-                                <FormGroup>
-                                    <Label for="deviceName">Device Name</Label>
-                                    <Select placeholder="Please select Device Name" isClearable
-                                        options={this.state.deviceNames} />
-                                    <Label for="testProgram">Test Program</Label>
-                                    <Select placeholder="Please select Test Program" isClearable
-                                        options={this.state.testpgm.reduce((sum, e, i) => {
-                                            if (e.name !== null) {
-                                                sum.push({ label: e.name, value: e.name, });
-                                            }
-                                            return sum;
-                                        }, [])} />
-                                    <Label for="lpt">Logpoint</Label>
-                                    <Select placeholder="Please select Logpoint" isClearable
-                                        options={this.state.lpt}/>
-                                    <div>&nbsp;</div>
-                                    <Button onClick={() => this.handleClick()}>View NRB Rules</Button>
-                                </FormGroup>
-                            </Form>
+                            <Inputs />
+                            <Button onClick={() => this.handleClick()}>View NRB Rules</Button>
                         </Col>
                         <Col xs="4">
                         <div>&nbsp;</div>

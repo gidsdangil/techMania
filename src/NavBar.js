@@ -21,7 +21,7 @@ import {Link} from 'react-router-dom';
       return (
         <Navbar light>
             <NavbarBrand href="/">
-              <img src="/logo.png" alt="Smart No Rescreen Bin"/>
+              <span className="fas fa-dumpster-fire"></span>Smart No Rescreen Bin
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
