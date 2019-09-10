@@ -20,7 +20,9 @@ import {Link} from 'react-router-dom';
     render() {    
       return (
         <Navbar light>
-            <NavbarBrand href="/">Smart No Rescreen Bin </NavbarBrand>
+            <NavbarBrand href="/">
+              <img src="/logo.png" alt="Smart No Rescreen Bin"/>
+            </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" tabs>

@@ -1,0 +1,41 @@
+{
+  "nrb_rules": 
+  [
+    {
+      "id": 1,
+      "min_lots": 30,
+	  "time_span": "3 months",
+	  "recovery_rate": "<10%"
+    },
+	{
+      "id": 2,
+      "min_lots": 30,
+	  "time_span": "3 months",
+	  "recovery_rate": "<20%"
+    },
+	{
+      "id": 3,
+      "min_lots": 30,
+	  "time_span": "3 months",
+	  "recovery_rate": "<30%"
+    },
+	{
+      "id": 4,
+      "min_lots": 12,
+	  "time_span": "3 months",
+	  "recovery_rate": "<10%"
+    },
+	{
+      "id": 5,
+      "min_lots": 12,
+	  "time_span": "3 months",
+	  "recovery_rate": "<20%"
+    },
+	{
+      "id": 6,
+      "min_lots": 12,
+	  "time_span": "3 months",
+	  "recovery_rate": "<30%"
+    }
+  ]
+}
