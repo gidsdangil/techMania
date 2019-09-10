@@ -15,7 +15,7 @@ export default class View extends Component {
                             <Input placeholder="Test Program" type="text" id="testProgram" name="testProgram" />
                             <Label for="lpt">Logpoint</Label>
                             <Input placeholder="Logpoint" type="text" id="lpt" name="lpt" />
-                            <Button onClick={this.onClick}>Submit</Button>
+                            <Button onClick={() => this.onClick}>Submit</Button>
                         </FormGroup>
                     </Form>
                 </div>
