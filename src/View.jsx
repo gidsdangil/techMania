@@ -13,24 +13,29 @@ export default class View extends Component {
         //console.log('dataInner', props.data);
 
         var initialState = {
-            atssData: [{ value: "device1", label: "device1" },
-            { value: "device2", label: "device2" },
-            { value: "device3", label: "device3" }],
-            testpgm: [{ value: "pgm1", label: "pgm1" },
-            { value: "pgm2", label: "pgm2" },
-            { value: "pgm2", label: "pgm2" }],
-            lpt: [{ value: "0000", label: "0000" },
-            { value: "0100", label: "0100" },
-            { value: "0200", label: "0200" }],
             nrb_rule: [],
             data: [],
+            testpgm: [],
+            atssData: [],
+            lpt: [],
+            nrb_rule: [],
+            bin_array: []
         };
-
+        this.handleClick = this.handleClick.bind(this);
         this.state = initialState;
     }
 
-    handleClick = () => {
-        alert("clicked!");
+    handleClick = (options_array) =>{
+        
+        let atssJson = atss_data.atss_data;
+        for (let index = 0; index < atssJson.length; index++) {
+                if(atssJson[index].material === options_array[0]
+                    && atssJson[index].logpoint == options_array[2]
+                    && atssJson[index].test_program === options_array[1]){
+                    this.setState({bin_array: atssJson[index].bin_information}); 
+            }    
+        }   
+        console.log(options_array);        
     }
 
     componentWillMount() {
@@ -42,7 +47,7 @@ export default class View extends Component {
         let atss = atss_data.atss_data;
         let lpts = atss_data.atss_data;
 
-        //elliminate dupes
+        //e liminate dupes
         let uniqueTestPrograms = {};
         tp = tp.filter((val) => {
             if (uniqueTestPrograms[val.name] === undefined) {
@@ -54,8 +59,8 @@ export default class View extends Component {
 
         let uniqueDeviceNames = {};
         atss = atss.filter((val) => {
-            if (uniqueDeviceNames[val.material_name] === undefined) {
-                uniqueDeviceNames[val.material_name] = true;
+            if (uniqueDeviceNames[val.material] === undefined) {
+                uniqueDeviceNames[val.material] = true;
                 return true;
             }
             return false;
@@ -81,18 +86,19 @@ export default class View extends Component {
     }
 
     render() {
+        const data = this.state.bin_array;
         const columns = [{
             Header: 'Bin',
-            accessor: 'bin'
+            accessor: 'bin_name'
         }, {
             Header: 'Recovery Rate',
-            accessor: 'rr',
+            accessor: 'recovery_rate',
         }, {
             Header: 'Enroll',
-            accessor: 'enroll'
+            accessor: 'enrolled'
         }];
 
-        const data = []
+        
         return (
             <div>
                 <h1 align="center">View Report</h1>
@@ -100,8 +106,7 @@ export default class View extends Component {
                 <Container>
                     <Row>
                         <Col xs="4">
-                            <Inputs />
-                            <Button onClick={() => this.handleClick()}>Submit</Button>
+                            <Inputs handleClick={this.handleClick} button={'showView'}/>
                         </Col>
                         <Col xs="8">
                             <h2 align="center">Binning Information</h2>

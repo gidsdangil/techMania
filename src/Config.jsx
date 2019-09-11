@@ -50,7 +50,6 @@ export default class Config extends Component {
                     <Row>
                         <Col xs="8">
                             <Inputs />
-                            <Button onClick={() => this.handleClick()}>View NRB Rules</Button>
                         </Col>
                         <Col xs="4">
                         <div>&nbsp;</div>
@@ -66,7 +65,7 @@ export default class Config extends Component {
                                             <Label for="minLots">Min Lots:&nbsp;</Label>
                                         </td>
                                         <td>
-                                            <Input type="text" name="minLots" id="minLots" placeholder="Enter min lot"></Input>
+                                            <Input type="text" name="minLots" id="minLots" placeholder="Enter min lot" value= '12'></Input>
                                         </td>
                                     </tr>
                                     <tr>
@@ -74,7 +73,7 @@ export default class Config extends Component {
                                             <Label for="timespan">Time Span:&nbsp;</Label>
                                         </td>
                                         <td>
-                                            <Input type="text" name="timeSpan" id="timeSpan" placeholder="Enter time span"></Input>
+                                            <Input type="text" name="timeSpan" id="timeSpan" placeholder="Enter time span" value='3 months'></Input>
                                         </td>
                                     </tr>
                                     <tr>
@@ -82,13 +81,13 @@ export default class Config extends Component {
                                             <Label for="rr">Recovery Rate:&nbsp;</Label>
                                         </td>
                                         <td>
-                                            <Input type="text" name="rr" id="rr" placeholder="Enter recovery rate"></Input>
+                                            <Input type="text" name="rr" id="rr" placeholder="Enter recovery rate" value = '<30%'></Input>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
                             <div>&nbsp;</div>
-                            <Button onClick={() => this.onSubmit()}>Override</Button>
+                            <Button onClick={() => this.onSubmit()}>Enroll</Button>
                         </Col>
                     </Row>
                 </Container>

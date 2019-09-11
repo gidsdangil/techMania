@@ -1,28 +1,22 @@
 import React, { Component } from 'react';
-import Select from 'react-select';
-import { Form, FormGroup, Label} from 'reactstrap';
+import { Form, FormGroup, Label, Button, Input} from 'reactstrap';
 import testpgms from './test_programs';
 import atss_data from './atss_data';
 import nrbRules from './nrb_rules';
 
-export default class Inputs extends Component {
+class Inputs extends Component {
     constructor(props) {
         super(props);
 
-        var initialState = {
-            atssData: [{ value: "device1", label: "device1" },
-            { value: "device2", label: "device2" },
-            { value: "device3", label: "device3" }],
-            testpgm: [{ value: "pgm1", label: "pgm1" },
-            { value: "pgm2", label: "pgm2" },
-            { value: "pgm2", label: "pgm2" }],
-            lpt: [{ value: "0000", label: "0000" },
-            { value: "0100", label: "0100" },
-            { value: "0200", label: "0200" }],
+        var initialState = {            
             nrb_rule:[],
             data: [],
+            selected_testpgm: '',
+            selected_device: '',
+            selected_lpt: '',
+            bin_array: {}
         };
-
+        this.handleButton = this.handleButton.bind(this);
         this.state = initialState;
     }
 
@@ -30,12 +24,29 @@ export default class Inputs extends Component {
         this.refreshOptions();
     }
 
+    handleChange = (value, event) =>{
+        console.log(value)
+        if(value === "device")
+            this.setState({selected_device: event.target.value});
+        else if(value === "tpgm")
+            this.setState({selected_testpgm: event.target.value});
+        else if(value === "lgpt")
+            this.setState({selected_lpt: event.target.value});
+    }
+
+    handleButton = () => {
+        if (this.props.button === 'showView'){
+            let options_array = [this.state.selected_device, this.state.selected_testpgm, this.state.selected_lpt];
+            this.props.handleClick(options_array);
+        }
+    }    
+
     refreshOptions = () => {
         let tp = testpgms.test_programs;
         let atss = atss_data.atss_data;
         let lpts = atss_data.atss_data;
 
-        //elliminate dupes
+        //eliminate dupes
         let uniqueTestPrograms = {};
         tp = tp.filter((val) => {
           if (uniqueTestPrograms[val.name] === undefined) {
@@ -47,8 +58,8 @@ export default class Inputs extends Component {
 
         let uniqueDeviceNames = {};
         atss = atss.filter((val) => {
-          if (uniqueDeviceNames[val.material_name] === undefined) {
-            uniqueDeviceNames[val.material_name] = true;
+          if (uniqueDeviceNames[val.material] === undefined) {
+            uniqueDeviceNames[val.material] = true;
             return true;
           }
           return false;
@@ -69,38 +80,41 @@ export default class Inputs extends Component {
         this.setState({ nrb_rule: nrbRules.nrb_rules });
     }
     render(){
+        const devices = this.state.atssData.map((item) =>
+            <option value={item.material}>{item.material}</option>
+        );
+        const tpgm = testpgms.test_programs.map((item) =>
+            <option value={item.name}>{item.name}</option>
+        );
+        const lgpt = this.state.lpt.map((item) =>
+            <option value={item.logpoint}>{item.logpoint}</option>
+        );
         return(
             <div>
             <Form>
                 <FormGroup>
                     <Label for="deviceName">Device Name</Label>
-                    <Select placeholder="Please select Device Name" isClearable
-                                options={this.state.atssData.reduce((sum, e, i) => {
-                        if (e.material_name !== null) {
-                            sum.push({ label: e.material_name, value: e.material_name, });
-                            }
-                            return sum;
-                        }, [])}/>
+                    <Input type="select" id="deviceName" onChange={this.handleChange.bind(null,'device')}>
+                        <option value=''></option>
+                        {devices}                                
+                    </Input>
                     <Label for="testProgram">Test Program</Label>
-                    <Select placeholder="Please select Test Program" isClearable
-                                options={this.state.testpgm.reduce((sum, e, i) => {
-                        if (e.name !== null) {
-                            sum.push({ label: e.name, value: e.name, });
-                            }
-                            return sum;
-                        }, [])} />
+                    <Input type="select" id="testProgram" onChange={this.handleChange.bind(null,'tpgm')}>
+                        <option value=''></option>
+                        {tpgm}                                
+                    </Input>
                     <Label for="lpt">Logpoint</Label>
-                    <Select placeholder="Please select Logpoint" isClearable
-                            options={this.state.lpt.reduce((sum, e, i) => {
-                        if (e.logpoint !== null ) {
-                            sum.push({ label: e.logpoint, value: e.logpoint, });
-                            }
-                            return sum;
-                        }, [])} />
+                    <Input type="select" id="logPoint" onChange={this.handleChange.bind(null,'lgpt')}>
+                        <option value=''></option>
+                        {lgpt}                                
+                    </Input>
                     <div>&nbsp;</div>
+                    <Button onClick={this.handleButton}>Submit</Button>                    
                     </FormGroup>
                 </Form>
             </div>
         )
     }
 }
+
+export default Inputs;

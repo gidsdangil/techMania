@@ -1,1382 +1,1193 @@
 {
-  "atss_data": 
-  [
-	 {
-	   "id": 1,
-	   "material": "034PNTCUPDWD-B",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 7,
-			 "final_pass_rate": 7,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 20,
-			 "final_pass_rate": 20,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 5,
-			 "final_pass_rate": 5,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 2,
-	   "material": "034PNTCUPDWG-B",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 82,
-			 "final_pass_rate": 37,
-			 "recovery_rate": 55,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": 2,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 11,
-			 "final_pass_rate": 12,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 28,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 89,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 18,
-			 "final_pass_rate": 13,
-			 "recovery_rate": 28,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 3,
-	   "material": "035NBPAGTCUPDD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 10,
-			 "final_pass_rate": 10,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": 2,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 4,
-	   "material": "2035PNTCUPDWD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 356,
-			 "final_pass_rate": 104,
-			 "recovery_rate": 71,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 124,
-			 "final_pass_rate": 73,
-			 "recovery_rate": 41,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 269,
-			 "final_pass_rate": 83,
-			 "recovery_rate": 69,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 67,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 141,
-			 "final_pass_rate": 127,
-			 "recovery_rate": 10,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 5,
-	   "material": "28030PAGQCUPD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 290,
-			 "final_pass_rate": 26,
-			 "recovery_rate": 91,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 7,
-			 "final_pass_rate": 7,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 44,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 93,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 7,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 86,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 6,
-	   "material": "28030PNTCUPDWD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 93,
-			 "final_pass_rate": 22,
-			 "recovery_rate": 76,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 9,
-			 "final_pass_rate": 9,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 34,
-			 "final_pass_rate": 28,
-			 "recovery_rate": 18,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 50,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 20,
-			 "final_pass_rate": 14,
-			 "recovery_rate": 30,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 7,
-	   "material": "28032PNTCUPDWG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 726,
-			 "final_pass_rate": 170,
-			 "recovery_rate": 77,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 11,
-			 "final_pass_rate": 11,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 141,
-			 "final_pass_rate": 104,
-			 "recovery_rate": 26,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 749,
-			 "final_pass_rate": 420,
-			 "recovery_rate": 44,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 32,
-			 "final_pass_rate": 12,
-			 "recovery_rate": 63,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 210,
-			 "final_pass_rate": 182,
-			 "recovery_rate": 13,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 8,
-	   "material": "28033PNTCUPDWD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 173,
-			 "final_pass_rate": 48,
-			 "recovery_rate": 72,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 7,
-			 "final_pass_rate": 7,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 54,
-			 "final_pass_rate": 44,
-			 "recovery_rate": 19,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 111,
-			 "final_pass_rate": 72,
-			 "recovery_rate": 35,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 5,
-			 "final_pass_rate": 4,
-			 "recovery_rate": 20,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 34,
-			 "final_pass_rate": 34,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 9,
-	   "material": "28034PNSCUPDWG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 96,
-			 "final_pass_rate": 5,
-			 "recovery_rate": 95,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 8,
-			 "final_pass_rate": 8,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 10,
-			 "final_pass_rate": 7,
-			 "recovery_rate": 30,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 31,
-			 "final_pass_rate": 8,
-			 "recovery_rate": 74,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": null,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 30,
-			 "final_pass_rate": 18,
-			 "recovery_rate": 40,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 10,
-	   "material": "28034PNTCUPDWG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 138,
-			 "final_pass_rate": 54,
-			 "recovery_rate": 61,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 29,
-			 "final_pass_rate": 18,
-			 "recovery_rate": 38,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 34,
-			 "final_pass_rate": 6,
-			 "recovery_rate": 82,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 29,
-			 "final_pass_rate": 16,
-			 "recovery_rate": 45,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 11,
-	   "material": "28035PNSCUPDWD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 33,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 91,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 4,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 11,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 73,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 12,
-	   "material": "28035PNSCUPDWG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 21,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 14,
-			 "final_pass_rate": 28,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 15,
-			 "final_pass_rate": 10,
-			 "recovery_rate": 33,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 39,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 92,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 13,
-			 "final_pass_rate": 8,
-			 "recovery_rate": 38,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 13,
-	   "material": "2PLC35PAGCUPDD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 40,
-			 "final_pass_rate": 40,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 11,
-			 "final_pass_rate": 11,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 43,
-			 "final_pass_rate": 43,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 33,
-			 "final_pass_rate": 33,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 14,
-	   "material": "2PLC35PAGCUPDG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 9,
-			 "final_pass_rate": 9,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 31,
-			 "final_pass_rate": 31,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 4,
-			 "final_pass_rate": 4,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 12,
-			 "final_pass_rate": 12,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 5,
-			 "final_pass_rate": 5,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 15,
-	   "material": "8032PNSCUPDWG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 17,
-			 "final_pass_rate": 17,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": 2,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 29,
-			 "final_pass_rate": 29,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 17,
-			 "final_pass_rate": 17,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 16,
-	   "material": "8035PAGTRCUPDG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 24,
-			 "final_pass_rate": 24,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 14,
-			 "final_pass_rate": 14,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 24,
-			 "final_pass_rate": 24,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 3,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 11,
-			 "final_pass_rate": 11,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 17,
-	   "material": "8035PNTRCUPDWG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 24,
-			 "final_pass_rate": 24,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 10,
-			 "final_pass_rate": 10,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 22,
-			 "final_pass_rate": 13,
-			 "recovery_rate": 41,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 2,
-			 "recovery_rate": 33,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 21,
-			 "final_pass_rate": 21,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 18,
-	   "material": "937PNTCUPDWG-B",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 185,
-			 "final_pass_rate": 146,
-			 "recovery_rate": 21,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 4,
-			 "final_pass_rate": 4,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 44,
-			 "final_pass_rate": 44,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 22,
-			 "final_pass_rate": 18,
-			 "recovery_rate": 18,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 8,
-			 "final_pass_rate": 5,
-			 "recovery_rate": 38,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 26,
-			 "final_pass_rate": 12,
-			 "recovery_rate": 54,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 19,
-	   "material": "937PNTCUPDWG-Y",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 8046,
-			 "final_pass_rate": 702,
-			 "recovery_rate": 91,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 195,
-			 "final_pass_rate": 350,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 1051,
-			 "final_pass_rate": 721,
-			 "recovery_rate": 31,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 1906,
-			 "final_pass_rate": 428,
-			 "recovery_rate": 78,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 180,
-			 "final_pass_rate": 64,
-			 "recovery_rate": 64,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 1245,
-			 "final_pass_rate": 266,
-			 "recovery_rate": 79,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 8,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 20,
-	   "material": "F034PNTRCUPDWG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 15,
-			 "final_pass_rate": 7,
-			 "recovery_rate": 53,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 15,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 165,
-			 "final_pass_rate": 138,
-			 "recovery_rate": 16,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 21,
-	   "material": "F28034PNQCUPDW",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 339,
-			 "final_pass_rate": 37,
-			 "recovery_rate": 89,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 52,
-			 "final_pass_rate": 53,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 6,
-			 "final_pass_rate": 6,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 70,
-			 "final_pass_rate": 11,
-			 "recovery_rate": 84,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 22,
-	   "material": "F8031PAGTCUPDD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 6,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 83,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 26,
-			 "final_pass_rate": 26,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 31,
-			 "final_pass_rate": 23,
-			 "recovery_rate": 26,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": 2,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 21,
-			 "final_pass_rate": 21,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 23,
-	   "material": "F8034PAGSCUPDG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 20,
-			 "final_pass_rate": 20,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 17,
-			 "final_pass_rate": 17,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 5,
-			 "final_pass_rate": 5,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 2,
-			 "final_pass_rate": 2,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 10,
-			 "final_pass_rate": 10,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 24,
-	   "material": "F8034PAGTCUPDG",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 780,
-			 "final_pass_rate": 633,
-			 "recovery_rate": 19,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 91,
-			 "final_pass_rate": 92,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 3707,
-			 "final_pass_rate": 3623,
-			 "recovery_rate": 2,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 895,
-			 "final_pass_rate": 686,
-			 "recovery_rate": 23,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 99,
-			 "final_pass_rate": 45,
-			 "recovery_rate": 55,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 1526,
-			 "final_pass_rate": 1067,
-			 "recovery_rate": 30,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 25,
-	   "material": "N034PNTCUPDWD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 143,
-			 "final_pass_rate": 17,
-			 "recovery_rate": 88,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 4,
-			 "final_pass_rate": 4,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 39,
-			 "final_pass_rate": 19,
-			 "recovery_rate": 51,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 76,
-			 "final_pass_rate": 16,
-			 "recovery_rate": 79,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 3,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 87,
-			 "final_pass_rate": 68,
-			 "recovery_rate": 22,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 26,
-	   "material": "NT34PAGQCUPD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 10,
-			 "final_pass_rate": 10,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 8,
-			 "final_pass_rate": 8,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 1,
-			 "final_pass_rate": 1,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 0,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	},
-	 {
-	   "id": 27,
-	   "material": "SG00937PNTCUPD",
-	   "test_program": "V741804A19",
-	   "logpoint": 4410,
-	   "bin_information": {
-		  "bin8": {
-			 "first_pass_rate": 2949,
-			 "final_pass_rate": 535,
-			 "recovery_rate": 82,
-			 "enrolled": " N "
-		  },
-		  "bin9": {
-			 "first_pass_rate": 100,
-			 "final_pass_rate": 147,
-			 "recovery_rate": 0,
-			 "enrolled": " N "
-		  },
-		  "bin10": {
-			 "first_pass_rate": 1005,
-			 "final_pass_rate": 741,
-			 "recovery_rate": 26,
-			 "enrolled": " N "
-		  },
-		  "bin11": {
-			 "first_pass_rate": 991,
-			 "final_pass_rate": 261,
-			 "recovery_rate": 74,
-			 "enrolled": " N "
-		  },
-		  "bin12": {
-			 "first_pass_rate": 128,
-			 "final_pass_rate": 63,
-			 "recovery_rate": 51,
-			 "enrolled": " N "
-		  },
-		  "bin13": {
-			 "first_pass_rate": 549,
-			 "final_pass_rate": 259,
-			 "recovery_rate": 53,
-			 "enrolled": " N "
-		  },
-		  "bin14": {
-			 "first_pass_rate": 6,
-			 "final_pass_rate": 0,
-			 "recovery_rate": 100,
-			 "enrolled": " N "
-		  }
-	   },
-	   "nrb_rule_id": null
-	}
-	]
-}
+	"atss_data": 
+	[
+   {
+	 "id": 1,
+	 "material": "034PNTCUPDWD-B",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 2,
+	 "material": "034PNTCUPDWG-B",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 55,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 89,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 28,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 3,
+	 "material": "035NBPAGTCUPDD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 4,
+	 "material": "2035PNTCUPDWD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 71,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 41,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 69,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 67,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 10,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 5,
+	 "material": "28030PAGQCUPD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 91,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 93,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 86,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 6,
+	 "material": "28030PNTCUPDWD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 76,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 18,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 50,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 30,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 7,
+	 "material": "28032PNTCUPDWG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 77,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 26,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 44,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 63,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 13,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 8,
+	 "material": "28033PNTCUPDWD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 72,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 19,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 35,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 20,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 9,
+	 "material": "28034PNSCUPDWG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 95,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 30,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 74,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 40,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 10,
+	 "material": "28034PNTCUPDWG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 61,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 38,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 82,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 45,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 11,
+	 "material": "28035PNSCUPDWD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 91,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 73,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 12,
+	 "material": "28035PNSCUPDWG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 33,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 92,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 38,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 13,
+	 "material": "2PLC35PAGCUPDD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 14,
+	 "material": "2PLC35PAGCUPDG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 15,
+	 "material": "8032PNSCUPDWG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 16,
+	 "material": "8035PAGTRCUPDG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 17,
+	 "material": "8035PNTRCUPDWG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 41,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 33,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 18,
+	 "material": "937PNTCUPDWG-B",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 21,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 18,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 38,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 54,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 19,
+	 "material": "937PNTCUPDWG-Y",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 91,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 31,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 78,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 64,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 79,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 20,
+	 "material": "F034PNTRCUPDWG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 53,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 16,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 21,
+	 "material": "F28034PNQCUPDW",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 89,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 84,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 22,
+	 "material": "F8031PAGTCUPDD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 83,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 26,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 23,
+	 "material": "F8034PAGSCUPDG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 24,
+	 "material": "F8034PAGTCUPDG",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 19,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 2,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 23,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 55,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 30,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 25,
+	 "material": "N034PNTCUPDWD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 88,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 51,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 79,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 22,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 26,
+	 "material": "NT34PAGQCUPD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  },
+   {
+	 "id": 27,
+	 "material": "SG00937PNTCUPD",
+	 "test_program": "V741804A19",
+	 "logpoint": 4410,
+	 "bin_information": [
+		{
+		   "bin_name": "bin8",
+		   "recovery_rate": 82,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin9",
+		   "recovery_rate": 0,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin10",
+		   "recovery_rate": 26,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin11",
+		   "recovery_rate": 74,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin12",
+		   "recovery_rate": 51,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin13",
+		   "recovery_rate": 53,
+		   "enrolled": " N "
+		},
+		{
+		   "bin_name": "bin14",
+		   "recovery_rate": 100,
+		   "enrolled": " N "
+		}
+	 ],
+	 "nrb_rule_id": null
+  }
+  ]
+  }
