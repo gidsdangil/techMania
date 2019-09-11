@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Label, Input, Container, Row, Col } from 'reactstrap';
+import { Button, Label, Input, Container, Row, Col, Modal, ModalHeader, ModalFooter, ModalBody } from 'reactstrap';
 import Inputs from './Inputs';
 import testpgms from './test_programs';
 
@@ -11,26 +11,22 @@ export default class Config extends Component {
         //console.log('dataInner', props.data);
 
         var initialState = {
-            deviceNames: [{ value: "device1", label: "device1" },
-            { value: "device2", label: "device2" },
-            { value: "device3", label: "device3" }],
-            testpgm: [{ value: "pgm1", label: "pgm1" },
-            { value: "pgm2", label: "pgm2" },
-            { value: "pgm2", label: "pgm2" }],
-            lpt: [{ value: "0000", label: "0000" },
-            { value: "0100", label: "0100" },
-            { value: "0200", label: "0200" }],
+            deviceName: [],
+            testpgm: [],
+            lpt: [],
         };
 
         this.state = initialState;
     }
 
-    handleClick = () => {
-        alert("clicked!");
-    }
-
-    onSubmit = () => {
-        alert("submitted!");
+    handleClick= (options_array) =>{
+        this.setState(prevState => ({
+            modal: !prevState.modal
+          }));
+        
+        this.setState({deviceName: options_array[0]});
+        this.setState({testpgm: options_array[1]});
+        this.setState({lpt: options_array[2]});
     }
 
     componentWillMount() {
@@ -49,7 +45,7 @@ export default class Config extends Component {
                 <Container>
                     <Row>
                         <Col xs="8">
-                            <Inputs />
+                            <Inputs handleClick={this.handleClick} />
                         </Col>
                         <Col xs="4">
                         <div>&nbsp;</div>
@@ -60,6 +56,14 @@ export default class Config extends Component {
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <tr>
+                                        <td>
+                                            <Label for="bn">Bin Name:&nbsp;</Label>
+                                        </td>
+                                        <td>
+                                            <Input type="text" name="bn" id="bn" placeholder="Enter bin namee" value = 'bin13'></Input>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td>
                                             <Label for="minLots">Min Lots:&nbsp;</Label>
@@ -83,14 +87,27 @@ export default class Config extends Component {
                                         <td>
                                             <Input type="text" name="rr" id="rr" placeholder="Enter recovery rate" value = '<30%'></Input>
                                         </td>
-                                    </tr>
+                                    </tr>                                    
                                 </tbody>
                             </table>
                             <div>&nbsp;</div>
-                            <Button onClick={() => this.onSubmit()}>Enroll</Button>
                         </Col>
                     </Row>
                 </Container>
+                <Modal isOpen={this.state.modal} toggle={this.handleClick} className={this.props.className}>
+                <ModalHeader toggle={this.toggle}>NRB Enrollment</ModalHeader>
+                <ModalBody>
+                    NRB configuration has been enrolled to ATSS.<br/>
+                    Please see below details:<br/>
+                    <b>Device</b>: {this.state.deviceName}<br/>
+                    <b>Test Program</b>: {this.state.testpgm}<br/>
+                    <b>Logpoint</b>: {this.state.lpt}
+                </ModalBody>
+                <ModalFooter>
+                    <Button color="primary" onClick={this.handleClick}>Acknowledge</Button>{' '}
+                    <Button color="secondary" onClick={this.handleClick}>Cancel</Button>
+                </ModalFooter>
+                </Modal>
             </div>
         )
     }
