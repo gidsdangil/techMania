@@ -35,6 +35,7 @@ class Inputs extends Component {
     }
 
     handleButton = () => {
+        console.log(this.props.button)
         if (this.props.button === 'showView'){
             let options_array = [this.state.selected_device, this.state.selected_testpgm, this.state.selected_lpt];
             this.props.handleClick(options_array);

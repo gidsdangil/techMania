@@ -45,7 +45,7 @@ export default class Config extends Component {
                 <Container>
                     <Row>
                         <Col xs="8">
-                            <Inputs handleClick={this.handleClick} />
+                            <Inputs handleClick={this.handleClick} button={'showConfig'}/>
                         </Col>
                         <Col xs="4">
                         <div>&nbsp;</div>

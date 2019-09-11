@@ -29,7 +29,7 @@ export default class View extends Component {
         let atssJson = atss_data.atss_data;
         for (let index = 0; index < atssJson.length; index++) {
                 if(atssJson[index].material === options_array[0]
-                    && atssJson[index].logpoint === options_array[2]
+                    && atssJson[index].logpoint == options_array[2]
                     && atssJson[index].test_program === options_array[1]){
                     this.setState({bin_array: atssJson[index].bin_information}); 
             }    
